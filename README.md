@@ -4,6 +4,19 @@
 
 General syntax examples of the format can be found [here](https://mmcif.wwpdb.org/docs/tutorials/mechanics/pdbx-mmcif-syntax.html). [wwPDB](https://www.wwpdb.org/) provides the legacy PDB specification [here](https://www.wwpdb.org/documentation/file-format). A comparative source of implementation can be found on the OpenStructure documentation [here](https://openstructure.org/docs/dev/io/structure_formats/).
 
+## Goals
+
+Support is expected for `.pdb` and `.mmcif` files. Ideally, this compatibility would also stretch to `.mol2` and `.sdf` although these formats are not necessarily equivalent.
+
+- PDB
+  - PDBx
+  - mmCIF
+  - PDB (legacy)
+  - Amber-style PDB
+- mol2
+- SDF
+- CIF (legacy)
+
 ## Contributing
 
 Project documentation is provided in English. Please contact the author(s) if you have any questions.
